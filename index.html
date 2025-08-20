@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quest of Robloxia Wiki</title>
+    <title>Quest of Robloxian Wiki</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -19,52 +19,86 @@
         <!-- Mechanics Tab -->
         <div id="mechanics" class="tab-content active">
             <h2>Game Mechanics</h2>
-            <h3>Basic Controls</h3>
-            <p>Use standard Roblox controls (WASD to move, Space to jump).</p>
-            <p><strong>Interactable Objects:</strong> Hover your mouse over an object and hold the prompted key (0.4s hold). Some objects require touching with your avatar; others work at a short distance.</p>
-            <h3>SoulBind Mechanic</h3>
-            <p>Learnable from Veylen in Chapter 2. Activates during specific boss attacks or chase sequences.</p>
-            <ul>
-                <li><strong>Overview:</strong> Your body locks, and you control your soul. If your soul takes 3 hits, your vessel shatters (Game Over, full restart).</li>
-                <li><strong>Soul Bar:</strong> Shows 3 soul pieces. If hit, a piece is lost, and a timer starts. Avoid hits until the timer runs out to regain a piece (max 3).</li>
-                <li><strong>Soul States:</strong>
-                    <ul>
-                        <li><strong>Drift:</strong> Normal speed, balanced movement.</li>
-                        <li><strong>Echo:</strong> Slow soul with afterimages. Attacks start slow, then speed up. Dodge telegraphed slashes.</li>
-                        <li><strong>Anchor:</strong> Soul locks in place. Use a shield to block attacks every 1–2 seconds, or take vessel damage.</li>
-                    </ul>
-                </li>
-                <li><strong>Note:</strong> Without SoulBind, gameplay is harder. Learn it in Chapter 2 for Chapter 3 bosses!</li>
+            <p>Explore detailed viewpoints on key mechanics below. Click on a point to jump to its section.</p>
+            <ul class="viewpoints">
+                <li><a href="#basic-controls">Basic Controls</a></li>
+                <li><a href="#interactable-objects">Interactable Objects</a></li>
+                <li><a href="#soulbind-mechanic">SoulBind Mechanic</a></li>
+                <li><a href="#soul-states">Soul States (Drift, Echo, Anchor)</a></li>
             </ul>
+
+            <section id="basic-controls">
+                <h3>Basic Controls</h3>
+                <p>Use standard Roblox controls: WASD to move, Space to jump, Shift to sprint, and mouse to look around. These form the foundation of navigation through parkour courses and battles. Mastering fluid movement is essential for dodging attacks and traversing hazardous environments like lava pits or shadowy corridors.</p>
+                <p><strong>Notes:</strong> In tight spaces, combine jumping with directional movement for precise platforming. Controls are responsive, but lag can affect timing—ensure a stable connection for optimal play.</p>
+            </section>
+
+            <section id="interactable-objects">
+                <h3>Interactable Objects</h3>
+                <p>Objects and items become interactable starting in Chapter 2. Hover your mouse over an object to see a prompt, then hold the specified key (hold duration: 0.4 seconds) to interact or pick it up. Some require direct contact with your avatar, while others can be triggered from a short distance.</p>
+                <p><strong>Detailed Interaction Rules:</strong> Prompts appear as on-screen text or icons. Holding too long or too short may cancel the action. Interactables include relics, shards, and environmental puzzles—always scan areas thoroughly.</p>
+                <p><strong>Notes:</strong> This mechanic adds depth to exploration, encouraging players to engage with the world beyond combat. Failing an interaction doesn't penalize, but missing key objects can make progression harder.</p>
+            </section>
+
+            <section id="soulbind-mechanic">
+                <h3>SoulBind Mechanic</h3>
+                <p>This learnable mechanic is unlocked by speaking to Veylen after completing specific tasks in Chapter 2. It activates automatically during certain boss attacks, enemy encounters, or chase sequences, locking your body and allowing control of your fragile soul (a Robloxian vessel spirit).</p>
+                <p><strong>Core Rules:</strong> The screen darkens, and your soul becomes visible. You can't move your body but can maneuver the soul. The soul has 3 hit points (soul pieces); losing all 3 shatters your vessel, triggering Game Over and a full restart from the chapter's beginning.</p>
+                <p><strong>Recharge System:</strong> A Soul Bar displays your pieces. Getting hit loses one and resets a recharge timer. Avoid hits until the timer expires to regain a piece (max 3). Phases end when the boss attack concludes or you escape.</p>
+                <p><strong>Fallback if Not Learned:</strong> Without SoulBind, encounters play normally but are significantly harder and less enjoyable—attacks feel overwhelming without soul control. Strongly recommended to learn it before Chapter 3.</p>
+                <p><strong>Notes:</strong> SoulBind enhances strategic depth, turning defense into an active mini-game. Practice in non-lethal trials to master timing. Vessel death during SoulBind also forces a restart, emphasizing caution.</p>
+            </section>
+
+            <section id="soul-states">
+                <h3>Soul States</h3>
+                <p>While SoulBind is active, switch between these states to adapt to attacks. Switching is free but only available during an active phase.</p>
+                <ul>
+                    <li><strong>Drift:</strong> Normal speed and movement. Ideal for balanced dodging in standard sequences. Offers full control without modifiers, perfect for beginners or mixed attack patterns.</li>
+                    <li><strong>Echo:</strong> Soul slows, leaving afterimages. Time dilates; attacks start slow and accelerate, showing telegraph lines for slashes. Best for patterned, speeding threats—use the slowdown to plan dodges.</li>
+                    <li><strong>Anchor:</strong> Soul locks in its current position, switching control to a shield mechanic (like Undertale). Block attacks every 1–2 seconds, or take direct vessel damage. Suited for unavoidable barrages; timing is key to avoid penalties.</li>
+                </ul>
+                <p><strong>Notes:</strong> States reward adaptation—Drift for mobility, Echo for prediction, Anchor for defense. Bosses in later chapters favor specific states, adding replay value through experimentation.</p>
+            </section>
         </div>
 
         <!-- Chapters Tab -->
         <div id="chapters" class="tab-content">
             <h2>Chapters</h2>
-            <h3>Chapter 1: The Parkour to the Fire Ring</h3>
-            <p>Battle through a fiery parkour course to face EmberBot, guardian of the Fire Ring.</p>
-            <img src="Images/emberbot.png" alt="EmberBot" class="wiki-image">
-            <p><strong>Reward:</strong> Permanently gain the <strong>Fire Ring</strong> after defeating EmberBot.</p>
-            <img src="Images/fire_ring.png" alt="Fire Ring" class="wiki-image">
-            <p><strong>Note:</strong> Your sword breaks during this fight, leaving it shattered on the battlefield.</p>
-            <img src="Images/broken_sword.png" alt="Broken Sword" class="wiki-image">
-            <h3>Chapter 2: The Path of Shadows</h3>
-            <p>Navigate dark corridors to reach ShadeBot, guardian of the ShadowFang Ring. Encounter Resonance, a mysterious entity, in a terrifying chase after Room 2.</p>
-            <img src="Images/resonance.png" alt="Resonance" class="wiki-image">
-            <p><strong>Status:</strong> Only the chase sequence (Rooms 2–7) is complete. More to come!</p>
-            <p><strong>Warning:</strong> Do not confuse Chapter 1 and Chapter 2. The Fire Ring is gained in Chapter 1; Chapter 2 introduces the ShadowFang Ring (not yet obtainable).</p>
+            <p>Each chapter builds on the last but stands distinct. Click viewpoints to explore lore and notes for each.</p>
+            <ul class="viewpoints">
+                <li><a href="#chapter1">Chapter 1: The Parkour to the Fire Ring</a></li>
+                <li><a href="#chapter2">Chapter 2: The Path of Shadows</a></li>
+            </ul>
+
+            <section id="chapter1">
+                <h3>Chapter 1: The Parkour to the Fire Ring</h3>
+                <p><strong>Lore Overview:</strong> In this introductory chapter, players embark on a fiery quest to reclaim the Fire Ring, a powerful artifact guarded by EmberBot amid a treacherous parkour arena. The story introduces the return of a notorious threat, setting the stage for Robloxian heroism through intense challenges and a climactic boss battle.</p>
+                <img src="Images/emberbot.png" alt="EmberBot" class="wiki-image">
+                <p><strong>Reward:</strong> Upon defeating EmberBot, you permanently gain the Fire Ring, which may unlock future abilities or bonuses in subsequent chapters.</p>
+                <img src="Images/fire_ring.png" alt="Fire Ring" class="wiki-image">
+                <p><strong>Notes:</strong> This chapter focuses on parkour mastery and basic combat. Your sword breaks during the fight, symbolizing growth—look for it shattered on the battlefield as a lore easter egg. Completion transitions seamlessly to Chapter 2 without backtracking.</p>
+            </section>
+
+            <section id="chapter2">
+                <h3>Chapter 2: The Path of Shadows</h3>
+                <p><strong>Lore Overview:</strong> Following Chapter 1's victory, shadows deepen as players navigate cursed paths toward the ShadowFang Ring, guarded by ShadeBot. Whispers of a greater mystery emerge with Resonance, an ancient entity awakened by your actions, hinting at forces beyond the main threat.</p>
+                <img src="Images/resonance.png" alt="Resonance" class="wiki-image">
+                <p><strong>Status:</strong> Currently complete up to the Resonance chase (Rooms 2–7). The chapter introduces interactables and SoulBind, building tension toward ShadeBot.</p>
+                <p><strong>Notes:</strong> Do not confuse with Chapter 1—Fire Ring is from EmberBot; ShadowFang Ring is this chapter's goal (not yet fully implemented). Resonance teases Chapter 3's boss fight, adding horror elements. Explore thoroughly for hidden shards.</p>
+            </section>
         </div>
 
         <!-- Tips & Hints Tab -->
         <div id="tips" class="tab-content">
             <h2>Tips & Hints</h2>
-            <h3>Chapter 1: Surviving EmberBot</h3>
+            <h3>Chapter 1: The Parkour to the Fire Ring</h3>
             <ul>
-                <li>Watch for fireball patterns in the parkour course. Jump early to avoid lava pits!</li>
-                <li>EmberBot’s attacks are telegraphed. Dodge left or right when he raises his arm.</li>
-                <li>Check corners for health pickups before the boss fight.</li>
+                <li><strong>Boss Fight - Fireball Spam:</strong> When fireballs rain down, jump continuously to avoid collision with explosions on the ground. Staying airborne minimizes damage from splash effects.</li>
+                <li><strong>Predicting Attacks:</strong> Watch EmberBot's keyframes (animation frames)—subtle cues like arm raises or glows indicate the next move. Practice spotting them for better dodges.</li>
+                <li><strong>Second Phase Strategy:</strong> Always leave at least 1 zombie alive during EmberBot's second phase. This prevents him from summoning more, giving you breathing room to focus on the boss.</li>
+                <li>Scan for health pickups in the arena corners before engaging— they're crucial for survival.</li>
             </ul>
-            <h3>Chapter 2: Path of Shadows</h3>
+            <h3>Chapter 2: The Path of Shadows</h3>
             <ul>
                 <li><strong>Echo Fragment:</strong> Look for a faint glow in dark corners of Room 3. Interact (hold key) to collect it. [Placeholder: No image available]</li>
                 <li><strong>Resonance Chase (Rooms 2–7):</strong> Keep moving! Dodge shadow bolts by jumping or sliding. Stay on upper platforms to avoid falling debris.</li>
@@ -76,7 +110,7 @@
         <div id="updates" class="tab-content">
             <h2>Developer Updates</h2>
             <div class="update-bubble">
-                <p><strong>Update 1 (8/20/25):</strong> Just finished the Resonance chase in Chapter 2! Those glowing eyes are CREEPY. Working on ShadeBot’s fight next. Any ideas for cool attacks? 😎</p>
+                <p><strong>Update 1 (8/20/2025):</strong> Just finished the Resonance chase in Chapter 2! Those glowing eyes are CREEPY. Working on Chapter 2.</p>
             </div>
             <div class="update-bubble">
                 <p><strong>Update 2 (TBD):</strong> Coming soon! Planning Veylen’s SoulBind tutorial. It’s gonna make Chapter 3 epic!</p>
